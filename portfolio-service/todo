@@ -1,0 +1,18 @@
+In progress
+* [java] send portfolio to kafka queue
+
+Pending
+* [python] load market data in ignite
+* [python] calculate portfolio returns and risk in pyspark using ignite market data
+* [javascript] create a better user interface
+* [python] get the instrument market data from ignite
+
+Done
+* [python] get portfolio in spark and calculate some analytics
+* [javascript] create websocket client to send portfolio
+* [java] create websocket handler to receive portfolio
+* [java] consume from kafka queue
+* [java] send the analytics back to the client in the websocket
+* [javascript] consume the websocket message and show it on the screen
+* [python] send the portfolio analytics back to another kafka queue
+
